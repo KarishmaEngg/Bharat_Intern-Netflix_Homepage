@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: red;
+    font-size:30px;
+    font-family: sans-serif;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+  nav ul li a:hover{
+    text-decoration: none;
+    color:red;
+    font-size: 1.04rem;
+}
+  
+  
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+  }
+  
+  .btn-watch {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-watch:hover {
+    background-color: darkred;
+  }
+  
+  /* Movies Section */
+  .movies-section {
+    padding: 20px;
+  }
+  
+  .movies-row {
+    display: flex;
+    gap: 60px;
+    overflow-x: scroll;
+    justify-content: center;
+  }
+  
+  .movie {
+    min-width: 200px;
+  }
+  
